@@ -8,13 +8,13 @@
 .homecontent
 {    
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 60%;
+    left: 40%;
     transform: translate(-50%,-50%);
 }
 .homecontent h1
 {
-    color:tomato;
+    color:white;
     font-size: 50px;
 }
 .homecontent a
@@ -25,11 +25,12 @@
     .home img
     {
         height:700px;
-    }
+    }    
     .homecontent h1
-    {
+    {  
+        margin-top:50px;      
         font-size:40px ;
-    }   
+    }     
 }
 .slidebar
 {

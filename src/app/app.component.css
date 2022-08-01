@@ -6,11 +6,15 @@
 {
     color: #000000;
     font-size: 18px;
-} */
-/* .navbar-light .navbar-nav .nav-link:hover
+} 
+.navbar-light .navbar-nav .nav-link:hover
 {
     text-decoration: underline;
 } */
+
+
+
+
 .nav-link {
     font-weight: bold;
     font-size: 14px;
@@ -23,6 +27,20 @@
     position: relative;
     opacity: 0.75;
   }
+  @media screen and (max-width:600px) {
+    .nav-link {
+      font-weight: bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #031D44;
+      padding: 15px 0px;
+      margin: -7px 15px;
+      display: inline-block;
+      position: relative;
+      opacity: 0.75;
+    }
+}
 .nav-link:hover {
     opacity: 1;
   }
